@@ -1,0 +1,16 @@
+{
+  "name": "sellars-reverse-proxy",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index",
+  "dependencies": {
+    "dynamic-reverse-proxy": "https://github.com/softek/dynamic-reverse-proxy/tarball/master",
+  "http-proxy":"*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD"
+}
