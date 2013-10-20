@@ -7,6 +7,10 @@ server.on("request", function (req, res) {
   if (req.url.match(/^\/register/i)) {
     dynamicProxy.registerRouteRequest(req, res);
   }
+  else if (req.url.match(/^\/routes/i)) {
+    res.write(JSON.stringify(dynamicProxy.routes));
+    res.end();
+  }
   else {
     dynamicProxy.proxyRequest(req, res);
   }
