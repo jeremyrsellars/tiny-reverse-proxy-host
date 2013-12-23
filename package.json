@@ -4,6 +4,7 @@
   "description": "",
   "dependencies": {
     "dynamic-reverse-proxy": "https://github.com/softek/dynamic-reverse-proxy/tarball/master",
+    "coffee-script": "*",
     "http-proxy":"x"
   },
   "devDependencies": {},
